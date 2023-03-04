@@ -1,0 +1,53 @@
+name: passmanager
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.5 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+
+  # To Store All Data in Google Sheet
+  gsheets: ^0.4.2
+
+  # To Check Network Connection 
+  connectivity_plus: ^3.0.2
+  
+  # To Manage State of the Application
+  flutter_bloc: ^8.1.2
+  equatable: ^2.0.5
+  lottie: ^2.2.0
+  animated_text_kit: ^4.2.2
+  page_transition: ^2.0.9
+  cherry_toast: ^1.0.9
+  shared_preferences: ^2.0.18
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/fonts/
+    - assets/lottie/
+
+  fonts:
+    - family: Amarante
+      fonts:
+        - asset: assets/fonts/Amarante-Regular.ttf
